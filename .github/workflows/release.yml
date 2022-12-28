@@ -2,7 +2,7 @@ name: "Release"
 on:
   push:
     branches:
-      - main
+      - master
     tags:
       - '!*'
 
@@ -59,7 +59,7 @@ jobs:
         run: npm_config_yes=true npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_PERSONAL_TOKEN }}
-          GIT_AUTHOR_NAME: 'GP'
-          GIT_COMMITTER_NAME: 'GP'
-          GIT_AUTHOR_EMAIL: 'me@httgp.com'
-          GIT_COMMITTER_EMAIL: 'me@httgp.com'
+          GIT_AUTHOR_NAME: 'umamigithub'
+          GIT_COMMITTER_NAME: 'umamigithub'
+          GIT_AUTHOR_EMAIL: 'umamitestgithub@gmail.com'
+          GIT_COMMITTER_EMAIL: 'umamitestgithub@gmail.com'
