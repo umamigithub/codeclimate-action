@@ -44,7 +44,7 @@ jobs:
 
     - name: publish code coverage to code-climate (duh)
       if: ${{ github.event_name == 'push' }}
-      uses: umamigithub/codeclimate-action@v3.21.2
+      uses: umamigithub/codeclimate-action@v3.2.0
       env:
         CC_TEST_REPORTER_ID: d8ee1444bde40703ffd617ccacf8cb953e5780de824696605c86fcef48b5a0cc
       with:
