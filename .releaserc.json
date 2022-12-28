@@ -1,6 +1,6 @@
 {
     "branches": [
-        "main"
+        "master"
     ],
     "plugins": [
         "@semantic-release/commit-analyzer",
@@ -13,8 +13,8 @@
                         "files": [
                             "README.md"
                         ],
-                        "from": "paambaati/codeclimate-action@v.*",
-                        "to": "paambaati/codeclimate-action@v${nextRelease.version}",
+                        "from": "umamigithub/codeclimate-action@v.*",
+                        "to": "umamigithub/codeclimate-action@v${nextRelease.version}",
                         "results": [
                             {
                                 "file": "README.md",
