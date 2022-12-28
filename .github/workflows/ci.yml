@@ -42,10 +42,10 @@ jobs:
                  "and check in all changes" \
             && exit 1)
 
-    - name: publish code coverage to code-climate (duh)
-      if: ${{ github.event_name == 'push' }}
-      uses: umamigithub/codeclimate-action@vlatest
-      env:
-        CC_TEST_REPORTER_ID: 3470adaf12ff7cecdfe5a968ae0e95d098b6ee58c340114e1e90d440ee9e66ab
-      with:
-        debug: true
+    #- name: publish code coverage to code-climate (duh)
+     # if: ${{ github.event_name == 'push' }}
+     # uses: umamigithub/codeclimate-action@vlatest
+     # env:
+     #   CC_TEST_REPORTER_ID: 3470adaf12ff7cecdfe5a968ae0e95d098b6ee58c340114e1e90d440ee9e66ab
+     # with:
+     #   debug: true
