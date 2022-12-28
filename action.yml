@@ -1,6 +1,6 @@
 name: 'Code Climate Coverage Action'
 description: 'Publish code coverage to Code Climate'
-author: 'GP <me@httgp.com>'
+author: 'umamigithub <umamitestgithub@gmail.com>'
 branding:
   icon: 'code'
   color: 'gray-dark'
