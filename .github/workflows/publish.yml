@@ -16,8 +16,8 @@ jobs:
         uses: technote-space/release-github-actions@v7
         with:
           GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_PERSONAL_TOKEN }}
-          COMMIT_NAME: 'GP'
-          COMMIT_EMAIL: 'me@httgp.com'
+          COMMIT_NAME: 'umamigithub'
+          COMMIT_EMAIL: 'umamitestgithub@gmail.com'
           CREATE_MAJOR_VERSION_TAG: true
           CREATE_MINOR_VERSION_TAG: true
           CREATE_PATCH_VERSION_TAG: true
